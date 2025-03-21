@@ -241,3 +241,80 @@
   .transaction:hover .transaction__btn {
     transform: translate(-50%, -50%);
   }
+
+  /* MEDIA QUERIES */
+  @media screen and (max-width: 768px) {
+    body {
+      min-height: 100vh;
+      padding: 0 15px;
+    }
+
+    .header {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .wrapper {
+      flex-direction: column;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    .app {
+      width: 100%;
+      height: auto;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+
+    .transactions-section {
+      width: 100%;
+    }
+
+    .overview {
+      width: 90%;
+    }
+
+    .form {
+      width: 90%;
+    }
+
+    .balance-number {
+      font-size: 24px;
+    }
+
+    .first-heading {
+      font-size: 14px;
+    }
+
+    .transaction {
+      padding: 12px 15px;
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 20px;
+    }
+
+    .overview {
+      width: 95%;
+    }
+
+    .form {
+      width: 95%;
+    }
+
+    .section {
+      padding: 15px 0;
+    }
+
+    .second-heading {
+      font-size: 12px;
+    }
+
+    .number {
+      font-size: 16px;
+    }
+  }
